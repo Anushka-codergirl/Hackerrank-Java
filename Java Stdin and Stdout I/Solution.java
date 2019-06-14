@@ -1,24 +1,15 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class Solution {
 
-
-
-    private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
-        int N = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-        for(int i=1; i <= 10; i++)
-        {
-            System.out.println(N+" x "+i+" = "+N*i);
-        }
-        scanner.close();
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();// Complete this line
+        int c = scan.nextInt();// Complete this line
+
+        System.out.println(a);
+        System.out.println(b);// Complete this line
+        System.out.println(c);// Complete this line
     }
 }
